@@ -1,0 +1,54 @@
+.app {
+  background-color: #201547;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 48px;
+}
+
+.header {
+  flex-direction: row;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+}
+
+.logo {
+  height: 48px;
+  width: auto;
+}
+
+.submit-btn {
+  background-color: #e31c79;
+  border: 0px;
+  border-radius: 120px;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 8px 32px;
+}
+
+.text-input {
+  font-size: 18px;
+  margin: 12px;
+  width: 240px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 600;
+}
